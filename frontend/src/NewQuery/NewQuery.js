@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
 import Zoom from 'react-reveal/Zoom';
-// import Flip from 'react-reveal/Flip'
 
 
 class NewQuery extends Component {
@@ -35,13 +33,10 @@ class NewQuery extends Component {
     if (queryResult !== []) {
         var count=0
     for(var i in queryResult){
-        // var key = i;
         var val = queryResult[i];
         if (count<1){
         for(var j in val){
             var sub_key = j;
-            // var sub_val = val[j];
-            // console.log(sub_key);
             headings.push(sub_key)
                 }
             }
