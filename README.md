@@ -1,3 +1,31 @@
+## What:
+
+This is a very simple template for a web app with a frontend in react.js and a backend in node.js, through which you can execute SQL queries after initiating a connection to your database.
+
+I hope this benefits you and saves you the time it took me to make this, as I'm not a professional developer. If you see any improvements to be made to this simple template, let me know.
+
+Best of luck and happy coding!
+
+## How:
+
+1. Navigate to the <i>config.js</i> file and change the entries to reflect your database-related information (user, password, etc).
+
+2. Open two command line interfaces (cli)
+
+3. In the first CLI, set the current directory to be the backend folder, then type and run <i>"node src"</i>
+
+4. In the second CLI, set the current directory to be the frontend folder, then type and run <i>"npm start"</i>
+
+That's it!
+
+<b>Note:</b> Before uploading your project onto your GitHub or sharing it anywhere, go to your <i>.gitignore</i> file and make sure that the last line pertaining to sharing the <i>config.js</i> file is not commented out. <b>You do not want to share this login/access information</b> (obviously).
+
+<br/>
+
+## Below this point is all the standard README content when initiating a react app using Express:
+
+<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
